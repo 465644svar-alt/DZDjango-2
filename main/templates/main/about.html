@@ -1,0 +1,41 @@
+{% extends 'main/base.html' %}
+
+{% block title %}О проекте | Minimal Django{% endblock %}
+
+{% block content %}
+<div class="row align-items-center mb-5">
+    <div class="col-lg-6">
+        <h1 class="fw-bold mb-3">О проекте</h1>
+        <p class="lead text-muted mb-4">
+            Minimal Django — это пример современного сайта, созданного с использованием 
+            Django и Bootstrap 5. Мы демонстрируем, как просто создать элегантный 
+            и функциональный веб-проект.
+        </p>
+        <ul class="list-unstyled">
+            <li class="mb-2">
+                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                Чистый и минималистичный дизайн
+            </li>
+            <li class="mb-2">
+                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                Полная адаптивность
+            </li>
+            <li class="mb-2">
+                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                Лёгкая настройка и расширение
+            </li>
+        </ul>
+    </div>
+    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-body p-5 text-center">
+                <i class="bi bi-rocket-takeoff text-primary display-1 mb-3"></i>
+                <h3>Наша философия</h3>
+                <p class="text-muted">
+                    Делаем сложное простым, а простое — красивым.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

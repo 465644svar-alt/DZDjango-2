@@ -1,0 +1,60 @@
+{% extends 'main/base.html' %}
+
+{% block title %}Услуги | Minimal Django{% endblock %}
+
+{% block content %}
+<h1 class="fw-bold mb-5 text-center">Наши услуги</h1>
+
+<div class="row g-4">
+    <!-- Услуга 1 -->
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body p-4">
+                <span class="badge bg-primary mb-3">Django</span>
+                <h5 class="card-title">Веб-разработка</h5>
+                <p class="card-text text-muted">
+                    Создаём современные веб-приложения на Django.
+                    От интернет-магазинов до корпоративных порталов.
+                </p>
+                <div class="mt-3">
+                    <a href="#" class="btn btn-outline-primary">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Услуга 2 -->
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body p-4">
+                <span class="badge bg-success mb-3">API</span>
+                <h5 class="card-title">REST API</h5>
+                <p class="card-text text-muted">
+                    Разработка RESTful API для мобильных приложений 
+                    и интеграций с внешними сервисами.
+                </p>
+                <div class="mt-3">
+                    <a href="#" class="btn btn-outline-success">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Услуга 3 -->
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body p-4">
+                <span class="badge bg-warning mb-3">Поддержка</span>
+                <h5 class="card-title">Техническая поддержка</h5>
+                <p class="card-text text-muted">
+                    Обслуживание и развитие существующих проектов.
+                    Гарантия стабильной работы вашего сайта.
+                </p>
+                <div class="mt-3">
+                    <a href="#" class="btn btn-outline-warning">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

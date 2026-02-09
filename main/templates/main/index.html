@@ -1,0 +1,64 @@
+{% extends 'main/base.html' %}
+
+{% block title %}Главная | Minimal Django{% endblock %}
+
+{% block content %}
+<div class="text-center mb-5">
+    <h1 class="display-4 fw-bold mb-3">Добро пожаловать</h1>
+    <p class="lead text-muted">Простой и элегантный сайт на Django</p>
+</div>
+
+<div class="row g-4">
+    <!-- Карточка 1 -->
+    <div class="col-md-6 col-lg-3">
+        <div class="card h-100">
+            <div class="card-body text-center p-4">
+                <div class="mb-3">
+                    <i class="bi bi-lightning-charge-fill text-primary fs-1"></i>
+                </div>
+                <h5 class="card-title">Быстро</h5>
+                <p class="card-text text-muted">Django ускоряет разработку в разы</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Карточка 2 -->
+    <div class="col-md-6 col-lg-3">
+        <div class="card h-100">
+            <div class="card-body text-center p-4">
+                <div class="mb-3">
+                    <i class="bi bi-shield-check text-success fs-1"></i>
+                </div>
+                <h5 class="card-title">Безопасно</h5>
+                <p class="card-text text-muted">Встроенная защита от уязвимостей</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Карточка 3 -->
+    <div class="col-md-6 col-lg-3">
+        <div class="card h-100">
+            <div class="card-body text-center p-4">
+                <div class="mb-3">
+                    <i class="bi bi-layers text-warning fs-1"></i>
+                </div>
+                <h5 class="card-title">Масштабируемо</h5>
+                <p class="card-text text-muted">Растёт вместе с вашим проектом</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Карточка 4 -->
+    <div class="col-md-6 col-lg-3">
+        <div class="card h-100">
+            <div class="card-body text-center p-4">
+                <div class="mb-3">
+                    <i class="bi bi-people text-info fs-1"></i>
+                </div>
+                <h5 class="card-title">Сообщество</h5>
+                <p class="card-text text-muted">Тысячи разработчиков по всему миру</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
